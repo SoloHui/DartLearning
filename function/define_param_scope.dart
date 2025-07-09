@@ -75,7 +75,7 @@ void executeFunction(void Function() fn) {
 }
 
 // 10. 匿名函数和闭包
-Function createCounter() {
+int Function() createCounter() {
   int count = 0;
   return () {
     count++;
