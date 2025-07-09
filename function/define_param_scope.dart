@@ -70,7 +70,7 @@ Map<String, dynamic> getUserInfo() {
 }
 
 // 9. 高阶函数（函数作为参数）
-void executeFunction(Function fn) {
+void executeFunction(void Function() fn) {
   fn();
 }
 
