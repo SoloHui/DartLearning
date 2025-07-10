@@ -226,12 +226,12 @@ class EventBus<EventType, ListenerType> {
   }
 
   // 触发事件
-  void emit<T>(EventType eventType, T data) {
+  void emit<D>(EventType eventType, D data) {
     final listeners = _listeners[eventType];
     if (listeners != null) {
       print('触发事件: $eventType, 数据: $data');
       for (final listener in listeners) {
-        if (listener is Function(T)) {
+        if (listener is Function(D)) {
           listener(data);
         }
       }
