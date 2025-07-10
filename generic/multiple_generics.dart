@@ -170,7 +170,7 @@ class ListConverter<From, To> implements Converter<List<From>, List<To>> {
 
 // 处理管道类，支持多步骤数据转换
 class Pipeline<Input, Output> {
-  final List<Function> _steps = [];
+  final List<Output Function(dynamic)> _steps = [];
 
   Pipeline();
 
