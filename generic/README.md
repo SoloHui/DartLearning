@@ -4,7 +4,7 @@
 
 ## 文件说明
 
-### 1. `class_function_api.dart`
+### 1. [`class_function_api.dart`](./class_function_api.dart)
 
 这个文件介绍了Dart中泛型的基础用法：
 
@@ -21,7 +21,7 @@
 - 泛型函数支持参数类型的灵活性
 - 使用`extends`关键字对泛型类型添加约束
 
-### 2. `multiple_generics.dart`
+### 2. [`multiple_generics.dart`](./multiple_generics.dart)
 
 这个文件展示了Dart中更高级的泛型用法：
 
