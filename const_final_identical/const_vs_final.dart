@@ -45,12 +45,12 @@ void main() {
   // const 相同值的对象实际上是同一个实例
   const p1 = Point(2, 3);
   const p2 = Point(2, 3);
-  print('p1 == p2: ${identical(p1, p2)}'); // true，它们是同一个实例
+  print('identical(p1, p2): ${identical(p1, p2)}'); // true，它们是同一个实例
 
   // 非 const 对象，即使值相同也是不同实例
   final p3 = Point(2, 3);
   final p4 = Point(2, 3);
-  print('p3 == p4: ${identical(p3, p4)}'); // false，它们是不同实例
+  print('identical(p3, p4): ${identical(p3, p4)}'); // false，它们是不同实例
 }
 
 // 具有常量构造函数的类
