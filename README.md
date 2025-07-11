@@ -30,7 +30,6 @@
 - **[const_final_identical/](./const_final_identical/)** - 常量和不可变性
 - **[new_feature/](./new_feature/)** - Dart新特性（空安全等）
 - **[library/](./library/)** - 库和包管理
-- **[docs/](./docs/)** - 学习笔记和文档
 
 ## 重要概念
 
