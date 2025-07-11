@@ -4,7 +4,7 @@
 
 ## 文件说明
 
-### 1. `const_vs_final.dart`
+### 1. [`const_vs_final.dart`](./const_vs_final.dart)
 
 这个文件介绍了 `const` 和 `final` 关键字的区别和用法：
 
@@ -19,7 +19,7 @@
 - `final` 集合虽然引用不能改变，但内容可以修改
 - 使用 `const` 修饰对象可以在内存中共享实例
 
-### 2. `const_constructor.dart`
+### 2. [`const_constructor.dart`](./const_constructor.dart)
 
 这个文件详细演示了常量构造函数的定义和使用：
 
@@ -36,7 +36,7 @@
 - 常量构造函数不能有函数体，只能有初始化列表
 - 抽象类也可以有常量构造函数
 
-### 3. `identical_function.dart`
+### 3. [`identical_function.dart`](./identical_function.dart)
 
 这个文件演示了 `identical` 函数的用法和原理：
 
@@ -52,7 +52,7 @@
 - 重写 `==` 运算符时必须同时重写 `hashCode`
 - 字符串字面量在 Dart 中通常会被内部化(interned)
 
-### 4. `memory_and_identity.dart`
+### 4. [`memory_and_identity.dart`](./memory_and_identity.dart)
 
 这个文件详细讲解了 `identical` 函数和 Dart 内存管理的关系：
 
@@ -68,7 +68,7 @@
 - `const` 对象可以减少内存使用
 - 对象标识在其生命周期内是唯一的
 
-### 5. `comprehensive_example.dart`
+### 5. [`comprehensive_example.dart`](./comprehensive_example.dart)
 
 这个文件综合展示了 `const`、`final`、`identical` 和常量构造函数的结合使用：
 
